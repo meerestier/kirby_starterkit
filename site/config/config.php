@@ -28,3 +28,21 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+
+/*
+
+---------------------------------------
+Remote Auth
+---------------------------------------
+
+*/
+c::set('rauth.twitter.key', '18399060');
+c::set('rauth.twitter.secret', 'g97mVbn9DTGtsOtR5WHqo9umJmnR63Ng1wc8v4POm3pHKGWBMU');
+c::set('rauth.twitter.callback', 'YOURKIRBYURL/auth/auth:twitter');
+
+/*
+c::set('rauth.github.key', 'GitHubClientID');
+c::set('rauth.github.secret', 'GitHubClientSecret');
+c::set('rauth.github.callback', 'YOURKIRBYURL/auth/auth:github');
+*/
